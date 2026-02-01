@@ -315,7 +315,8 @@ document.getElementById("enquiryForm").addEventListener("submit", function (e) {
   submitBtn.textContent = "Submitting...";
 
   // 6️⃣ Submit
-  fetch("https://script.google.com/macros/s/AKfycbz0r1NnG1yFcWQEJzpUlfjLClYhuWq5ja7nueNtoP2yRmv5hgcwy1CBaCsXKz7nwyT3/exec", {
+  
+  fetch("https://script.google.com/macros/s/AKfycbwiQn6Sn2a8fOULVM_bGQzSzaysnHg5R3zWND0e4rPCUqox5TEDPtWHODwI2ZYG9SAdvQ/exec", {
     method: "POST",
     body: JSON.stringify(data)
   })
@@ -365,3 +366,4 @@ document.addEventListener("keydown", function (e) {
 
 </body>
 </html>
+
